@@ -1,0 +1,2 @@
+[26-Dec-2017 16:11:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: array in E:\Dev\08-PHP\xampp\htdocs\01-Learn\05-errorVSexception\02-error.php on line 7
+[26-Dec-2017 16:11:17 Asia/Ho_Chi_Minh] PHP Warning:  Invalid argument supplied for foreach() in E:\Dev\08-PHP\xampp\htdocs\01-Learn\05-errorVSexception\02-error.php on line 7
