@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 header('Content-type: image/png');
 $captcha = imagecreate(100, 50); // tạo hình ảnh
@@ -8,3 +9,6 @@ $text = imagettftext($captcha, 18, 2, 10, 30, imagecolorallocate($captcha, 15, 2
 $_SESSION['captcha'] = $content; // lưu mã captcha vào session để so sánh
 imagepng($captcha);
 imagedestroy($captcha);
+
+
+?>
