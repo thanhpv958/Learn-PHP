@@ -26,9 +26,6 @@
         } else {
             header('location: 04-login.php');
         }
-        
-
-
     } else {
         header('location: 04-login.php');
     }
