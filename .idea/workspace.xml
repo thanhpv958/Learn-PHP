@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e16a31ce-1a5f-4d7a-8798-264b55c2a0eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/13-sql/01/01.php" afterPath="$PROJECT_DIR$/13-sql/01-class/01.php" />
-      <change beforePath="$PROJECT_DIR$/13-sql/01/Database.class.php" afterPath="$PROJECT_DIR$/13-sql/01-class/Database.class.php" />
-      <change beforePath="$PROJECT_DIR$/13-sql/02/01.php" afterPath="$PROJECT_DIR$/13-sql/02-userlogin/01.php" />
-      <change beforePath="$PROJECT_DIR$/13-sql/02/04-functionProcess.php" afterPath="$PROJECT_DIR$/13-sql/02-userlogin/04-functionProcess.php" />
-      <change beforePath="$PROJECT_DIR$/13-sql/02/04-login.php" afterPath="$PROJECT_DIR$/13-sql/02-userlogin/04-login.php" />
-      <change beforePath="$PROJECT_DIR$/13-sql/02/04-logout.php" afterPath="$PROJECT_DIR$/13-sql/02-userlogin/04-logout.php" />
-      <change beforePath="$PROJECT_DIR$/13-sql/02/04-processLogin.php" afterPath="$PROJECT_DIR$/13-sql/02-userlogin/04-processLogin.php" />
-      <change beforePath="$PROJECT_DIR$/13-sql/02/04-users.ini" afterPath="$PROJECT_DIR$/13-sql/02-userlogin/04-users.ini" />
-    </list>
+    <list default="true" id="e16a31ce-1a5f-4d7a-8798-264b55c2a0eb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +14,11 @@
       <file leaf-file-name="01.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/13-sql/01-class/01.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="126">
+              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding>
-                <marker date="1515310047284" expanded="true" signature="298:305" ph="..." />
+                <marker date="1515310783164" expanded="true" signature="120:166" ph="SELECT * FRO... user" />
+                <marker date="1515310783164" expanded="true" signature="290:297" ph="..." />
               </folding>
             </state>
           </provider>
@@ -93,8 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,12 +117,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHPproject01" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,17 +163,17 @@
       <workItem from="1515249462424" duration="6278000" />
       <workItem from="1515306850588" duration="1389000" />
       <workItem from="1515310168146" duration="208000" />
+      <workItem from="1515336232469" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7875000" />
+    <option name="totallyTimeSpent" value="7894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22043702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22300771" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -225,7 +217,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1515310047284" expanded="true" signature="298:305" ph="..." />
+            <marker date="1515310783164" expanded="true" signature="120:166" ph="SELECT * FRO... user" />
+            <marker date="1515310783164" expanded="true" signature="290:297" ph="..." />
           </folding>
         </state>
       </provider>
@@ -243,7 +236,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1515310047284" expanded="true" signature="298:305" ph="..." />
+            <marker date="1515310783164" expanded="true" signature="120:166" ph="SELECT * FRO... user" />
+            <marker date="1515310783164" expanded="true" signature="290:297" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-sql/01-class/Database.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-sql/01-class/01.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1515310783164" expanded="true" signature="120:166" ph="SELECT * FRO... user" />
+            <marker date="1515310783164" expanded="true" signature="290:297" ph="..." />
           </folding>
         </state>
       </provider>
@@ -329,10 +342,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/13-sql/01-class/01.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="126">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding>
-            <marker date="1515310047284" expanded="true" signature="298:305" ph="..." />
+            <marker date="1515310783164" expanded="true" signature="120:166" ph="SELECT * FRO... user" />
+            <marker date="1515310783164" expanded="true" signature="290:297" ph="..." />
           </folding>
         </state>
       </provider>

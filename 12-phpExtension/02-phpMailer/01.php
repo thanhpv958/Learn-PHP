@@ -18,7 +18,7 @@ $mail = new PHPMailer\PHPMailer\PHPMailer();
 //    )
 //);
 $mail->CharSet = 'utf-8';
-$mail->Username = "thanhpv958@gmail.com";
+$mail->Username = "";
 $mail->Password = "";
 $mail->SetFrom('thanhpv958@gmail.com', 'thanhpv958');
 $mail->addAddress('thanhpv62@wru.vn','thanhpv');
