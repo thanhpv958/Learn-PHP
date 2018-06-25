@@ -7,7 +7,7 @@ class Cat {
     public function __construct($name = 'Doremon', $age = 10, $color = 'blue') {
         $this->name = $name;
         $this->age = $age;
-       self::$color = $color;
+        self::$color = $color;
     }
 
     public function getName() {
