@@ -67,8 +67,11 @@ class Container
 		}
 
         $parameters = $constructor->getParameters();
-        $dependencies = $this->getDependencies($parameters);
-
+        $dependencies = $this->resolveDependencies($parameters);
+        // var_dump($parameters);
+        // var_dump($reflector);
+        // var_dump($dependencies);
+        // var_dump($reflector->newInstanceArgs($dependencies));
         return $reflector->newInstanceArgs($dependencies);
     }
 
@@ -77,10 +80,10 @@ class Container
      * @return array
      * @throws Exception
      */
-    protected function getDependencies($parameters)
+    protected function resolveDependencies($parameters)
     {
         $dependencies = [];
-
+ 
         foreach ($parameters as $parameter) {
             $dependency = $parameter->getClass();
 
@@ -162,8 +165,12 @@ $dataUser = [
 $container = new Container();
 
 // Bind Interface
-$container->bind(Hasher::class, SHA01Hasher::class);
-$userController = $container->make(UserController::class);
+//$container->bind(Hasher::class, SHA01Hasher::class);
+// Bind Closure
+$container->bind(Hasher::class, function($container, $parameters) {
+    return new SHA01Hasher();
+});
+$userController = $container->make(UserController::class, []);
 $userController->register($dataUser);
 
 // Bind Closure
